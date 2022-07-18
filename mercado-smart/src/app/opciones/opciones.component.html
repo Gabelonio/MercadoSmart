@@ -1,0 +1,31 @@
+<section class="example-section" [formGroup]="hashtags">
+  <h2>Hashtags:</h2>
+  <p><mat-checkbox formControlName="diaDelPadre">#diaDelPadre</mat-checkbox></p>
+  <p><mat-checkbox formControlName="hiphopalparque">#hiphopalparque</mat-checkbox></p>
+  <p><mat-checkbox formControlName="asianfestBogota">#asianfestBogota</mat-checkbox></p>
+  <p><mat-checkbox formControlName="diadelaMadre">#diadelaMadre</mat-checkbox></p>
+  <p><mat-checkbox formControlName="diadelTrabajador">#diadelTrabajador</mat-checkbox></p>
+  <p><mat-checkbox formControlName="daily">#daily</mat-checkbox></p>
+</section>
+
+<section class="example-section" [formGroup]="hashtags">
+  <h4>Has seleccionado:</h4>
+  {{hashtags.value | json}}
+</section>
+
+<div class = "rango-fechas-seccion">
+  <h2 id="example-radio-group-label">Rangos de fechas:</h2>
+  <mat-radio-group
+    aria-labelledby="example-radio-group-label"
+    class="example-radio-group"
+    [(ngModel)]="rangoFecha">
+    <mat-radio-button class="example-radio-button" *ngFor="let rangoFecha of rangoFechas" [value]="rangoFecha">
+      {{rangoFecha}}
+    </mat-radio-button>
+  </mat-radio-group>
+  <div>Has seleccionado: {{rangoFecha}}</div>
+</div>
+
+
+
+
