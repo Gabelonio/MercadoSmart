@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:wght@500&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  animation: fadeInOutAnimation 1.25s ease-in-out;
+}
+
+@keyframes fadeInOutAnimation {
+  0% {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.grid-container {
+  margin: 20px;
+}
+
+mat-card{
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.main-titulo{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.main-contenido{
+  height: 8vh;
+}
+
+.presentador-por{
+  width: 80%;
+  margin: auto;
+}
+
+.seccion-integrantes{
+  display: flex;
+  justify-content: center;
+}
+
+.seccion-integrantes ul{
+  text-align: left;
+}
