@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Color, ScaleType } from '@swimlane/ngx-charts';
+import { Subscription } from 'rxjs';
 import { data } from '../data/data';
+import { AcotadorDatosService } from '../servicios/acotador-datos.service';
 
 @Component({
   selector: 'app-graf-lineas',
@@ -8,6 +10,8 @@ import { data } from '../data/data';
   styleUrls: ['./graf-lineas.component.css']
 })
 export class GrafLineasComponent implements OnInit {
+
+  suscripcionDatos: Subscription = new Subscription();
 
   data: any[] = [];
   view: [number, number] = [700, 380];
@@ -30,20 +34,22 @@ export class GrafLineasComponent implements OnInit {
                          selectable: true,
                          name: 'Customer Usage', };
 
+  constructor(private acotadorDatosService : AcotadorDatosService){}
 
   ngOnInit() {
-    Object.assign(this, { data });
+    this.suscripcionDatos = this.acotadorDatosService.datosSeleccionadosAct
+    .subscribe((datosActuales) => {
+        this.data = datosActuales;
+      }
+    );
+    this.data = this.acotadorDatosService.getDatosSeleccionados();
   }
 
-  onSelect(data : any): void {
-    console.log('Item clicked', JSON.parse(JSON.stringify(data)));
+  ngOnDestroy(): void {
+    this.suscripcionDatos.unsubscribe();
   }
 
-  onActivate(data: any): void {
-    console.log('Activate', JSON.parse(JSON.stringify(data)));
-  }
-
-  onDeactivate(data: any): void {
-    console.log('Deactivate', JSON.parse(JSON.stringify(data)));
-  }
+  onSelect(data : any): void {}
+  onActivate(data: any): void {}
+  onDeactivate(data: any): void {}
 }

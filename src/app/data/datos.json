@@ -1,0 +1,374 @@
+[
+  {
+    "categoria": "#Automoviles",
+    "series": [
+      {
+        "mes": 1,
+        "num_likes": 6,
+        "num_comments": 25,
+        "num_retweets": 67
+      },
+      {
+        "mes": 2,
+        "num_likes": 55,
+        "num_comments": 2,
+        "num_retweets": 75
+      },
+      {
+        "mes": 3,
+        "num_likes": 87,
+        "num_comments": 50,
+        "num_retweets": 44
+      },
+      {
+        "mes": 4,
+        "num_likes": 54,
+        "num_comments": 66,
+        "num_retweets": 100
+      },
+      {
+        "mes": 5,
+        "num_likes": 1,
+        "num_comments": 87,
+        "num_retweets": 55
+      },
+      {
+        "mes": 6,
+        "num_likes": 86,
+        "num_comments": 52,
+        "num_retweets": 81
+      },
+      {
+        "mes": 7,
+        "num_likes": 8,
+        "num_comments": 4,
+        "num_retweets": 54
+      },
+      {
+        "mes": 8,
+        "num_likes": 50,
+        "num_comments": 100,
+        "num_retweets": 57
+      },
+      {
+        "mes": 9,
+        "num_likes": 82,
+        "num_comments": 65,
+        "num_retweets": 51
+      },
+      {
+        "mes": 10,
+        "num_likes": 64,
+        "num_comments": 67,
+        "num_retweets": 42
+      },
+      {
+        "mes": 11,
+        "num_likes": 85,
+        "num_comments": 11,
+        "num_retweets": 37
+      },
+      {
+        "mes": 12,
+        "num_likes": 23,
+        "num_comments": 94,
+        "num_retweets": 72
+      }
+    ]
+  },
+  {
+    "categoria": "#Moda",
+    "series": [
+      {
+        "mes": 1,
+        "num_likes": 9,
+        "num_comments": 48,
+        "num_retweets": 37
+      },
+      {
+        "mes": 2,
+        "num_likes": 81,
+        "num_comments": 2,
+        "num_retweets": 18
+      },
+      {
+        "mes": 3,
+        "num_likes": 10,
+        "num_comments": 32,
+        "num_retweets": 9
+      },
+      {
+        "mes": 4,
+        "num_likes": 12,
+        "num_comments": 88,
+        "num_retweets": 76
+      },
+      {
+        "mes": 5,
+        "num_likes": 2,
+        "num_comments": 4,
+        "num_retweets": 25
+      },
+      {
+        "mes": 6,
+        "num_likes": 37,
+        "num_comments": 77,
+        "num_retweets": 23
+      },
+      {
+        "mes": 7,
+        "num_likes": 96,
+        "num_comments": 19,
+        "num_retweets": 10
+      },
+      {
+        "mes": 8,
+        "num_likes": 58,
+        "num_comments": 60,
+        "num_retweets": 83
+      },
+      {
+        "mes": 9,
+        "num_likes": 79,
+        "num_comments": 42,
+        "num_retweets": 11
+      },
+      {
+        "mes": 10,
+        "num_likes": 77,
+        "num_comments": 94,
+        "num_retweets": 88
+      },
+      {
+        "mes": 11,
+        "num_likes": 67,
+        "num_comments": 54,
+        "num_retweets": 86
+      },
+      {
+        "mes": 12,
+        "num_likes": 12,
+        "num_comments": 62,
+        "num_retweets": 51
+      }
+    ]
+  },
+  {
+    "categoria": "#Maquillaje",
+    "series": [
+      {
+        "mes": 1,
+        "num_likes": 86,
+        "num_comments": 90,
+        "num_retweets": 7
+      },
+      {
+        "mes": 2,
+        "num_likes": 44,
+        "num_comments": 99,
+        "num_retweets": 41
+      },
+      {
+        "mes": 3,
+        "num_likes": 98,
+        "num_comments": 60,
+        "num_retweets": 12
+      },
+      {
+        "mes": 4,
+        "num_likes": 70,
+        "num_comments": 36,
+        "num_retweets": 86
+      },
+      {
+        "mes": 5,
+        "num_likes": 25,
+        "num_comments": 9,
+        "num_retweets": 72
+      },
+      {
+        "mes": 6,
+        "num_likes": 7,
+        "num_comments": 25,
+        "num_retweets": 83
+      },
+      {
+        "mes": 7,
+        "num_likes": 3,
+        "num_comments": 96,
+        "num_retweets": 34
+      },
+      {
+        "mes": 8,
+        "num_likes": 51,
+        "num_comments": 46,
+        "num_retweets": 4
+      },
+      {
+        "mes": 9,
+        "num_likes": 87,
+        "num_comments": 99,
+        "num_retweets": 2
+      },
+      {
+        "mes": 10,
+        "num_likes": 52,
+        "num_comments": 40,
+        "num_retweets": 57
+      },
+      {
+        "mes": 11,
+        "num_likes": 72,
+        "num_comments": 94,
+        "num_retweets": 65
+      },
+      {
+        "mes": 12,
+        "num_likes": 58,
+        "num_comments": 2,
+        "num_retweets": 89
+      }
+    ]
+  },
+  {
+    "categoria": "#Festividades",
+    "series": [
+      {
+        "mes": 1,
+        "num_likes": 20,
+        "num_comments": 57,
+        "num_retweets": 73
+      },
+      {
+        "mes": 2,
+        "num_likes": 39,
+        "num_comments": 61,
+        "num_retweets": 65
+      },
+      {
+        "mes": 3,
+        "num_likes": 93,
+        "num_comments": 91,
+        "num_retweets": 11
+      },
+      {
+        "mes": 4,
+        "num_likes": 90,
+        "num_comments": 29,
+        "num_retweets": 33
+      },
+      {
+        "mes": 5,
+        "num_likes": 78,
+        "num_comments": 30,
+        "num_retweets": 24
+      },
+      {
+        "mes": 6,
+        "num_likes": 96,
+        "num_comments": 10,
+        "num_retweets": 28
+      },
+      {
+        "mes": 7,
+        "num_likes": 68,
+        "num_comments": 46,
+        "num_retweets": 59
+      },
+      {
+        "mes": 8,
+        "num_likes": 27,
+        "num_comments": 1,
+        "num_retweets": 91
+      },
+      {
+        "mes": 9,
+        "num_likes": 78,
+        "num_comments": 28,
+        "num_retweets": 68
+      },
+      {
+        "mes": 10,
+        "num_likes": 1,
+        "num_comments": 26,
+        "num_retweets": 99
+      },
+      {
+        "mes": 11,
+        "num_likes": 82,
+        "num_comments": 19,
+        "num_retweets": 44
+      },
+      {
+        "mes": 12,
+        "num_likes": 70,
+        "num_comments": 9,
+        "num_retweets": 67
+      }
+    ]
+  },
+  {
+    "categoria": "#Guerra",
+    "series": [{
+        "mes": 1,
+        "num_likes": 43,
+        "num_comments": 30,
+        "num_retweets": 71
+      }, {
+        "mes": 2,
+        "num_likes": 47,
+        "num_comments": 55,
+        "num_retweets": 64
+      }, {
+        "mes": 3,
+        "num_likes": 24,
+        "num_comments": 69,
+        "num_retweets": 26
+      }, {
+        "mes": 4,
+        "num_likes": 52,
+        "num_comments": 2,
+        "num_retweets": 91
+      }, {
+        "mes": 5,
+        "num_likes": 64,
+        "num_comments": 82,
+        "num_retweets": 90
+      }, {
+        "mes": 6,
+        "num_likes": 39,
+        "num_comments": 98,
+        "num_retweets": 26
+      }, {
+        "mes": 7,
+        "num_likes": 36,
+        "num_comments": 61,
+        "num_retweets": 41
+      }, {
+        "mes": 8,
+        "num_likes": 48,
+        "num_comments": 41,
+        "num_retweets": 6
+      }, {
+        "mes": 9,
+        "num_likes": 21,
+        "num_comments": 89,
+        "num_retweets": 1
+      }, {
+        "mes": 10,
+        "num_likes": 49,
+        "num_comments": 94,
+        "num_retweets": 78
+      }, {
+        "mes": 11,
+        "num_likes": 45,
+        "num_comments": 43,
+        "num_retweets": 83
+      }, {
+        "mes": 12,
+        "num_likes": 38,
+        "num_comments": 71,
+        "num_retweets": 3
+      }]
+  }
+]

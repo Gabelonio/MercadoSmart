@@ -1,6 +1,17 @@
 * {
   text-align: left;
 }
+
+ul {
+  list-style-type: none;
+  padding-left: 5px;
+  margin-top: 4px;
+}
+
+.mat-slider-vertical{
+  min-height: 200px;
+}
+
 .example-radio-group {
   display: flex;
   flex-direction: column;

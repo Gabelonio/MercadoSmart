@@ -4,51 +4,51 @@ export let data = [
     "series": [
       {
         "name": "Jan",
-        "value": 124
+        "value": 125
       },
       {
         "name": "Feb",
-        "value": 20
+        "value": 87
       },
       {
         "name": "Mar",
-        "value": 7
+        "value": 90
       },
       {
         "name": "Apr",
-        "value": 162
+        "value": 90
       },
       {
         "name": "May",
-        "value": 94
+        "value": 106
       },
       {
         "name": "Jun",
-        "value": 200
+        "value": 95
       },
       {
         "name": "Jul",
-        "value": 148
+        "value": 95
       },
       {
         "name": "Aug",
-        "value": 85
+        "value": 103
       },
       {
         "name": "Sep",
-        "value": 197
+        "value": 70
       },
       {
         "name": "Oct",
-        "value": 101
+        "value": 104
       },
       {
         "name": "Nov",
-        "value": 111
+        "value": 83
       },
       {
         "name": "Dec",
-        "value": 83
+        "value": 78
       },
     ]
   },
@@ -57,51 +57,51 @@ export let data = [
     "series": [
       {
         "name": "Jan",
-        "value": 86
+        "value": 460
       },
       {
         "name": "Feb",
-        "value": 47
+        "value": 339
       },
       {
         "name": "Mar",
-        "value": 88
+        "value": 355
       },
       {
         "name": "Apr",
-        "value": 11
+        "value": 329
       },
       {
         "name": "May",
-        "value": 147
+        "value": 415
       },
       {
         "name": "Jun",
-        "value": 36
+        "value": 343
       },
       {
         "name": "Jul",
-        "value": 133
+        "value": 361
       },
       {
         "name": "Aug",
-        "value": 13
+        "value": 431
       },
       {
         "name": "Sep",
-        "value": 199
+        "value": 337
       },
       {
         "name": "Oct",
-        "value": 38
+        "value": 420
       },
       {
         "name": "Nov",
-        "value": 151
+        "value": 352
       },
       {
         "name": "Dec",
-        "value": 56
+        "value": 380
       },
     ]
   },
@@ -110,51 +110,51 @@ export let data = [
     "series": [
       {
         "name": "Jan",
-        "value": 33
+        "value": 233
       },
       {
         "name": "Feb",
-        "value": 152
+        "value": 260
       },
       {
         "name": "Mar",
-        "value": 125
+        "value": 204
       },
       {
         "name": "Apr",
-        "value": 106
+        "value": 199
       },
       {
         "name": "May",
-        "value": 194
+        "value": 201
       },
       {
         "name": "Jun",
-        "value": 120
+        "value": 126
       },
       {
         "name": "Jul",
-        "value": 86
+        "value": 144
       },
       {
         "name": "Aug",
-        "value": 95
+        "value": 197
       },
       {
         "name": "Sep",
-        "value": 40
+        "value": 133
       },
       {
         "name": "Oct",
-        "value": 42
+        "value": 159
       },
       {
         "name": "Nov",
-        "value": 124
+        "value": 121
       },
       {
         "name": "Dec",
-        "value": 150
+        "value": 86
       },
     ]
   },
@@ -166,15 +166,15 @@ export let dataBars = [
     "series": [
       {
         "name": "TVs",
-        "value": 124
+        "value": 125
       },
       {
         "name": "Smartphones",
-        "value": 20
+        "value": 460
       },
       {
         "name": "Computers",
-        "value": 7
+        "value": 233
       }
     ]
   },
@@ -183,15 +183,15 @@ export let dataBars = [
     "series": [
       {
         "name": "TVs",
-        "value": 33
+        "value": 87
       },
       {
         "name": "Smartphones",
-        "value": 200
+        "value": 339
       },
       {
         "name": "Computers",
-        "value": 150
+        "value": 260
       }
     ]
   },
@@ -200,15 +200,15 @@ export let dataBars = [
     "series": [
       {
         "name": "TVs",
-        "value": 120
+        "value": 90
       },
       {
         "name": "Smartphones",
-        "value": 70
+        "value": 355
       },
       {
         "name": "Computers",
-        "value": 50
+        "value": 204
       }
     ]
   },
@@ -217,15 +217,15 @@ export let dataBars = [
     "series": [
       {
         "name": "TVs",
-        "value": 70
+        "value": 90
       },
       {
         "name": "Smartphones",
-        "value": 80
+        "value": 329
       },
       {
         "name": "Computers",
-        "value": 100
+        "value": 199
       }
     ]
   },
@@ -234,16 +234,136 @@ export let dataBars = [
     "series": [
       {
         "name": "TVs",
-        "value": 150
+        "value": 106
       },
       {
         "name": "Smartphones",
-        "value": 120
+        "value": 415
       },
       {
         "name": "Computers",
-        "value": 70
+        "value": 201
       }
     ]
   },
+  {
+    "name": "Jun",
+    "series": [
+      {
+        "name": "TVs",
+        "value": 95
+      },
+      {
+        "name": "Smartphones",
+        "value": 343
+      },
+      {
+        "name": "Computers",
+        "value": 126
+      }
+    ]
+  },
+  {
+    "name": "Jul",
+    "series": [
+      {
+        "name": "TVs",
+        "value": 95
+      },
+      {
+        "name": "Smartphones",
+        "value": 361
+      },
+      {
+        "name": "Computers",
+        "value": 144
+      }
+    ]
+  },
+  {
+    "name": "Aug",
+    "series": [
+      {
+        "name": "TVs",
+        "value": 103
+      },
+      {
+        "name": "Smartphones",
+        "value": 431
+      },
+      {
+        "name": "Computers",
+        "value": 197
+      }
+    ]
+  },
+  {
+    "name": "Sep",
+    "series": [
+      {
+        "name": "TVs",
+        "value": 70
+      },
+      {
+        "name": "Smartphones",
+        "value": 337
+      },
+      {
+        "name": "Computers",
+        "value": 133
+      }
+    ]
+  },
+  {
+    "name": "Oct",
+    "series": [
+      {
+        "name": "TVs",
+        "value": 104
+      },
+      {
+        "name": "Smartphones",
+        "value": 420
+      },
+      {
+        "name": "Computers",
+        "value": 159
+      }
+    ]
+  },
+  {
+    "name": "Nov",
+    "series": [
+      {
+        "name": "TVs",
+        "value": 83
+      },
+      {
+        "name": "Smartphones",
+        "value": 352
+      },
+      {
+        "name": "Computers",
+        "value": 121
+      }
+    ]
+  },
+  {
+    "name": "Dec",
+    "series": [
+      {
+        "name": "TVs",
+        "value": 78
+      },
+      {
+        "name": "Smartphones",
+        "value": 380
+      },
+      {
+        "name": "Computers",
+        "value": 86
+      }
+    ]
+  }
+
 ];
