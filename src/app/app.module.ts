@@ -12,7 +12,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { TendenciasComponent } from './tendencias/tendencias.component';
+import { TendenciasComponent } from './pages/tendencias/tendencias.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
@@ -25,6 +25,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms';
+import { LandingComponent } from './pages/landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { FormsModule } from '@angular/forms';
     GrafRadarComponent,
     GrafBarrasComponent,
     OpcionesComponent,
+    LandingComponent,
   ],
   imports: [
     BrowserModule,
