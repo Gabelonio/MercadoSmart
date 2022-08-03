@@ -1,13 +1,16 @@
-<section class="example-section">
-  <h2>Hashtags</h2>
-  <ul >
-    <li *ngFor="let subtask of hashtags">
-      <mat-checkbox [(ngModel)]="subtask.isSeleccionado" (change) ="onValoresCambiados()">
-        {{subtask.nombre}}
-      </mat-checkbox>
-    </li>
-  </ul>
-</section>
+<h2>Hashtag</h2>
+<mat-form-field appearance="fill">
+  <mat-label>Hashtag</mat-label>
+  <mat-select>
+    <mat-option
+      *ngFor="let hashtag of hashtags"
+      [value]="hashtag.nombre"
+      (change)="onHashtagSeleccionado($event)"
+    >
+      {{ hashtag.nombre }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
 
 <div class="rango-fechas-seccion">
   <h2>Rangos de fechas:</h2>
@@ -17,7 +20,8 @@
       <mat-select (selectionChange)="onFechaInicialCambiada($event)">
         <mat-option
           *ngFor="let fecha of fechasIniciales"
-          [value]="fecha.indice">
+          [value]="fecha.indice"
+        >
           {{ fecha.nombre }}
         </mat-option>
       </mat-select>
@@ -25,9 +29,7 @@
     <mat-form-field appearance="fill">
       <mat-label>Fecha Final</mat-label>
       <mat-select (selectionChange)="onFechaFinalCambiada($event)">
-        <mat-option
-          *ngFor="let fecha of fechasFinales"
-          [value]="fecha.indice">
+        <mat-option *ngFor="let fecha of fechasFinales" [value]="fecha.indice">
           {{ fecha.nombre }}
         </mat-option>
       </mat-select>

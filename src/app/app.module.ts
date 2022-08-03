@@ -16,16 +16,20 @@ import { TendenciasComponent } from './pages/tendencias/tendencias.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
-import { GrafLineasComponent } from './graf-lineas/graf-lineas.component';
+import { GrafLineasComponent } from './graficos/graf-lineas/graf-lineas.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
-import { GrafRadarComponent } from './graf-radar/graf-radar.component';
-import { GrafBarrasComponent } from './graf-barras/graf-barras.component';
+import { GrafRadarComponent } from './graficos/graf-radar/graf-radar.component';
+import { GrafBarrasComponent } from './graficos/graf-barras/graf-barras.component';
 import { OpcionesComponent } from './opciones/opciones.component';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms';
 import { LandingComponent } from './pages/landing/landing.component';
+import { ReporteComponent } from './pages/reporte/reporte.component';
+import { GrafCirculoComponent } from './graficos/graf-circulo/graf-circulo.component';
+import { OpcionesReporteComponent } from './opciones-reporte/opciones-reporte.component';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -37,6 +41,9 @@ import { LandingComponent } from './pages/landing/landing.component';
     GrafBarrasComponent,
     OpcionesComponent,
     LandingComponent,
+    ReporteComponent,
+    GrafCirculoComponent,
+    OpcionesReporteComponent,
   ],
   imports: [
     BrowserModule,
@@ -52,6 +59,7 @@ import { LandingComponent } from './pages/landing/landing.component';
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
+    MatSelectModule,
     NgxChartsModule,
     MatCheckboxModule,
     FormsModule,

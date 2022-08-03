@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 import * as data from '../data/datos.json';
-import { dataBarraBusqueda } from '../modelos/dataBarraBusqueda';
+import { dataBusqueda } from '../modelos/dataBusqueda.model';
 import { Hashtag } from '../modelos/hashtag.model';
 
 const MESES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -9,16 +9,14 @@ const MESES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "O
 @Injectable({
   providedIn: 'root'
 })
-export class AcotadorDatosService {
+export class AcotadorDatosReporteService {
   datosSeleccionadosAct = new Subject<any[]>();
   datosBarraSeleccionadosAct = new Subject<any[]>();
 
-  datosSeleccionados : dataBarraBusqueda[] = [];
-
-  rangoFechasSeleccionado : number[] = [1, 2];
+  datosSeleccionados : dataBusqueda[] = [];
 
   constructor() {
-    (data as any).default.map((item : dataBarraBusqueda) =>{
+    (data as any).default.map((item : dataBusqueda) =>{
       this.datosSeleccionados.push(item);
     });
     this.datosSeleccionadosAct.next(this.darFormatoDatos(this.datosSeleccionados));
@@ -44,8 +42,8 @@ export class AcotadorDatosService {
     this.datosBarraSeleccionadosAct.next(this.darFormatoDatosBarra(datosFiltrados));
   }
 
-  private darFormatoDatos(dataBarraBusqueda : dataBarraBusqueda[]){
-    return dataBarraBusqueda.map((item) => {
+  private darFormatoDatos(dataBusqueda : dataBusqueda[]){
+    return dataBusqueda.map((item) => {
       return {
         "name" : item.categoria,
         "series" : item.series.map((item)=> {
@@ -58,8 +56,8 @@ export class AcotadorDatosService {
     })
   }
 
-  private darFormatoDatosBarra(dataBarraBusqueda : dataBarraBusqueda[]){
-    let datosPorMes = dataBarraBusqueda.map((item) => {
+  private darFormatoDatosBarra(dataBusqueda : dataBusqueda[]){
+    let datosPorMes = dataBusqueda.map((item) => {
       return item.series.map((mes)=> {
           return {
             "mes" : MESES[mes.mes-1],
@@ -75,28 +73,8 @@ export class AcotadorDatosService {
   }
 
   onOpcionesSeleccionadas(hashtags : Hashtag[], rangoFechas : number){
-    /* switch(rangoFechas){
-      case 'Enero - Marzo' : {
-        this.rangoFechasSeleccionado = [1,3];
-        break;
-      }
-      case 'Abril - Junio' : {
-        this.rangoFechasSeleccionado = [4,6];
-        break;
-      }
-      case 'Julio - Septiembre' : {
-        this.rangoFechasSeleccionado = [7,9];
-        break;
-      }
-      case 'Octubre - Diciembre' : {
-        this.rangoFechasSeleccionado = [10,12];
-        break;
-      }
-    } */
     this.filtrarDatos(
       hashtags.filter(item => item.isSeleccionado).map(item => item.nombre),
       [1,rangoFechas]);
   }
-
-
 }

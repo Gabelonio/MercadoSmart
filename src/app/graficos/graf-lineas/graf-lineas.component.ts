@@ -1,8 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Color, ScaleType } from '@swimlane/ngx-charts';
-import { Subscription } from 'rxjs';
-import { data } from '../data/data';
-import { AcotadorDatosService } from '../servicios/acotador-datos.service';
+import { Subject, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-graf-lineas',
@@ -10,10 +8,11 @@ import { AcotadorDatosService } from '../servicios/acotador-datos.service';
   styleUrls: ['./graf-lineas.component.css']
 })
 export class GrafLineasComponent implements OnInit {
-
-  suscripcionDatos: Subscription = new Subscription();
+  @Input() dataSeleccionada : any[] = [];
+  @Input() subjectDatosSeleccionados : Subject<any[]> = new Subject<any[]>();
 
   data: any[] = [];
+  suscripcionDatos: Subscription = new Subscription();
   view: [number, number] = [700, 380];
 
   // options
@@ -25,8 +24,8 @@ export class GrafLineasComponent implements OnInit {
   showYAxisLabel: boolean = true;
   showXAxisLabel: boolean = true;
   xAxisLabel: string = 'Mes';
-  yAxisLabel: string = 'Ventas';
-  legendTitle: string = 'Productos';
+  yAxisLabel: string = 'Interacciones';
+  legendTitle: string = 'Hashtags';
   timeline: boolean = true;
 
   colorScheme: Color = { domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5'],
@@ -34,15 +33,16 @@ export class GrafLineasComponent implements OnInit {
                          selectable: true,
                          name: 'Customer Usage', };
 
-  constructor(private acotadorDatosService : AcotadorDatosService){}
+  constructor(){}
 
   ngOnInit() {
-    this.suscripcionDatos = this.acotadorDatosService.datosSeleccionadosAct
-    .subscribe((datosActuales) => {
-        this.data = datosActuales;
+    this.suscripcionDatos = this.subjectDatosSeleccionados
+    .subscribe(
+      (datosActuales) => {
+        this.data= datosActuales;
       }
     );
-    this.data = this.acotadorDatosService.getDatosSeleccionados();
+    this.data = this.dataSeleccionada;
   }
 
   ngOnDestroy(): void {
