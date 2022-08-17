@@ -63,11 +63,11 @@ const MESES = [
 export class OpcionesComponent {
 
   hashtags: Hashtag[] = [
-    {nombre : "#Guerra", isSeleccionado : false},
-    {nombre : "#Festividades", isSeleccionado : false},
-    {nombre : "#Maquillaje", isSeleccionado : false},
-    {nombre : "#Moda", isSeleccionado : false},
-    {nombre : "#Automoviles", isSeleccionado : false}
+    {nombre : "#Navidad", isSeleccionado : false},
+    {nombre : "#DiadelPadre", isSeleccionado : false},
+    {nombre : "#DiadelaMadre", isSeleccionado : false},
+    {nombre : "#SanValentin", isSeleccionado : false},
+    {nombre : "#Cometa", isSeleccionado : false}
   ];
 
   fechasIniciales: Mes[] = MESES.slice();

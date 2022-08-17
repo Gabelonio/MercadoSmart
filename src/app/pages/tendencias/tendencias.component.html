@@ -1,6 +1,16 @@
 <div class="grid-container">
   <h1 class="mat-h1">Comparacion Interacciones Hashtags</h1>
-  <mat-grid-list cols="3" rowHeight="400px">
+  <mat-grid-list cols="4" rowHeight="455px">
+    <mat-grid-tile colspan="1" rowspan="2">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>Opciones</mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+          <app-opciones></app-opciones>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
     <mat-grid-tile colspan="2" rowspan="1">
       <mat-card class="dashboard-card">
         <mat-card-header>
@@ -14,17 +24,19 @@
         </mat-card-content>
       </mat-card>
     </mat-grid-tile>
-    <mat-grid-tile colspan="1" rowspan="3">
+    <mat-grid-tile colspan="1" rowspan="2">
       <mat-card class="dashboard-card">
         <mat-card-header>
-          <mat-card-title>Opciones</mat-card-title>
+          <mat-card-title>Analítica</mat-card-title>
         </mat-card-header>
         <mat-card-content class="dashboard-card-content">
-          <app-opciones></app-opciones>
+          <app-analitica
+          [subjectTagsRelevantes] = "subjectTagsRelevantes"
+          [tagsRelevantes] = "tagsRelevantes"></app-analitica>
         </mat-card-content>
       </mat-card>
     </mat-grid-tile>
-    <mat-grid-tile colspan="2" rowspan="1">
+<!--     <mat-grid-tile colspan="2" rowspan="1">
       <mat-card class="dashboard-card">
         <mat-card-header>
           <mat-card-title>Grafico Radar</mat-card-title>
@@ -36,7 +48,7 @@
           ></app-graf-radar>
         </mat-card-content>
       </mat-card>
-    </mat-grid-tile>
+    </mat-grid-tile> -->
     <mat-grid-tile colspan="2" rowspan="1">
       <mat-card class="dashboard-card">
         <mat-card-header>

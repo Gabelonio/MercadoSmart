@@ -1,0 +1,32 @@
+<mat-card class="card-fav">
+  <mat-card-title class="titulo-card">Mas favorecido</mat-card-title>
+  <!--   <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> -->
+  <mat-card-content>
+    <h3>{{ datosRelevantes[1].categoria }}</h3>
+    <h3 class="info-hashtag">
+      Likes : {{ datosRelevantes[1].num_likes }} <br />
+      Comentarios : {{datosRelevantes[1].num_comments}} <br />
+      Retweets : {{datosRelevantes[1].num_retweets}}
+    </h3>
+  </mat-card-content>
+  <!-- <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions> -->
+</mat-card>
+<mat-card class="card-nofav">
+  <mat-card-title class="titulo-card">Menos favorecido</mat-card-title>
+  <!--   <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> -->
+  <mat-card-content>
+    <h3>{{ datosRelevantes[0].categoria }}</h3>
+    <h3 class="info-hashtag">
+      Likes : {{ datosRelevantes[0].num_likes }} <br />
+      Comentarios : {{datosRelevantes[0].num_comments}} <br />
+      Retweets : {{datosRelevantes[0].num_retweets}}
+    </h3>
+  </mat-card-content>
+  <!-- <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions> -->
+</mat-card>

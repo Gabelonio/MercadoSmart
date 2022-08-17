@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/mercado-smart",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

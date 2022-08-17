@@ -13,7 +13,7 @@ export class GrafLineasComponent implements OnInit {
 
   data: any[] = [];
   suscripcionDatos: Subscription = new Subscription();
-  view: [number, number] = [700, 380];
+  view: [number, number] = [660, 380];
 
   // options
   legend: boolean = true;

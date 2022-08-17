@@ -13,7 +13,7 @@ export class GrafBarrasComponent implements OnInit, OnDestroy{
 
   dataBars: any[] = [];
   suscripcionDatos: Subscription = new Subscription();
-  view: [number, number] = [700, 300];
+  view: [number, number] = [660, 380];
 
   // options
   showXAxis: boolean = true;

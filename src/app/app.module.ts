@@ -30,6 +30,7 @@ import { ReporteComponent } from './pages/reporte/reporte.component';
 import { GrafCirculoComponent } from './graficos/graf-circulo/graf-circulo.component';
 import { OpcionesReporteComponent } from './opciones-reporte/opciones-reporte.component';
 import {MatSelectModule} from '@angular/material/select';
+import { AnaliticaComponent } from './analitica/analitica/analitica.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import {MatSelectModule} from '@angular/material/select';
     ReporteComponent,
     GrafCirculoComponent,
     OpcionesReporteComponent,
+    AnaliticaComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,26 @@
+mat-card{
+  color:rgb(122, 136, 128);
+}
+.titulo-card{
+  font-size: 25px;
+}
+
+.card-fav {
+  max-width: 400px;
+  background-color:  #cdffccea;
+  color:rgb(87, 97, 91);
+  margin-bottom: 20px;
+}
+.card-nofav {
+  max-width: 400px;
+  background-color:  #ffcccb;
+  color:rgb(99, 88, 88);
+}
+.info-hashtag{
+  text-align: left;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}

@@ -1,6 +1,6 @@
 [
   {
-    "categoria": "#Automoviles",
+    "categoria": "#Navidad",
     "series": [
       {
         "mes": 1,
@@ -16,15 +16,15 @@
       },
       {
         "mes": 3,
-        "num_likes": 87,
-        "num_comments": 50,
-        "num_retweets": 44
+        "num_likes": 35,
+        "num_comments": 40,
+        "num_retweets": 25
       },
       {
         "mes": 4,
-        "num_likes": 54,
-        "num_comments": 66,
-        "num_retweets": 100
+        "num_likes": 50,
+        "num_comments": 22,
+        "num_retweets": 10
       },
       {
         "mes": 5,
@@ -34,9 +34,9 @@
       },
       {
         "mes": 6,
-        "num_likes": 86,
-        "num_comments": 52,
-        "num_retweets": 81
+        "num_likes": 50,
+        "num_comments": 40,
+        "num_retweets": 32
       },
       {
         "mes": 7,
@@ -46,8 +46,8 @@
       },
       {
         "mes": 8,
-        "num_likes": 50,
-        "num_comments": 100,
+        "num_likes": 24,
+        "num_comments": 55,
         "num_retweets": 57
       },
       {
@@ -58,26 +58,26 @@
       },
       {
         "mes": 10,
-        "num_likes": 64,
-        "num_comments": 67,
-        "num_retweets": 42
+        "num_likes": 85,
+        "num_comments": 75,
+        "num_retweets": 50
       },
       {
         "mes": 11,
-        "num_likes": 85,
-        "num_comments": 11,
-        "num_retweets": 37
+        "num_likes": 125,
+        "num_comments": 70,
+        "num_retweets": 42
       },
       {
         "mes": 12,
-        "num_likes": 23,
-        "num_comments": 94,
-        "num_retweets": 72
+        "num_likes": 135,
+        "num_comments": 80,
+        "num_retweets": 64
       }
     ]
   },
   {
-    "categoria": "#Moda",
+    "categoria": "#DiadelPadre",
     "series": [
       {
         "mes": 1,
@@ -135,9 +135,9 @@
       },
       {
         "mes": 10,
-        "num_likes": 77,
-        "num_comments": 94,
-        "num_retweets": 88
+        "num_likes": 42,
+        "num_comments": 35,
+        "num_retweets": 26
       },
       {
         "mes": 11,
@@ -154,7 +154,7 @@
     ]
   },
   {
-    "categoria": "#Maquillaje",
+    "categoria": "#DiadelaMadre",
     "series": [
       {
         "mes": 1,
@@ -231,7 +231,7 @@
     ]
   },
   {
-    "categoria": "#Festividades",
+    "categoria": "#SanValentin",
     "series": [
       {
         "mes": 1,
@@ -283,32 +283,29 @@
       },
       {
         "mes": 9,
-        "num_likes": 78,
-        "num_comments": 28,
-        "num_retweets": 68
-      },
-      {
+        "num_likes": 21,
+        "num_comments": 89,
+        "num_retweets": 1
+      }, {
         "mes": 10,
-        "num_likes": 1,
-        "num_comments": 26,
-        "num_retweets": 99
-      },
-      {
+        "num_likes": 48,
+        "num_comments": 41,
+        "num_retweets": 6
+      }, {
         "mes": 11,
-        "num_likes": 82,
-        "num_comments": 19,
-        "num_retweets": 44
-      },
-      {
+        "num_likes": 53,
+        "num_comments": 25,
+        "num_retweets": 30
+      }, {
         "mes": 12,
-        "num_likes": 70,
-        "num_comments": 9,
-        "num_retweets": 67
+        "num_likes": 38,
+        "num_comments": 71,
+        "num_retweets": 3
       }
     ]
   },
   {
-    "categoria": "#Guerra",
+    "categoria": "#Cometa",
     "series": [{
         "mes": 1,
         "num_likes": 43,
@@ -331,9 +328,9 @@
         "num_retweets": 91
       }, {
         "mes": 5,
-        "num_likes": 64,
-        "num_comments": 82,
-        "num_retweets": 90
+        "num_likes": 32,
+        "num_comments": 40,
+        "num_retweets": 25
       }, {
         "mes": 6,
         "num_likes": 39,
@@ -346,29 +343,33 @@
         "num_retweets": 41
       }, {
         "mes": 8,
-        "num_likes": 48,
-        "num_comments": 41,
-        "num_retweets": 6
-      }, {
-        "mes": 9,
-        "num_likes": 21,
-        "num_comments": 89,
-        "num_retweets": 1
-      }, {
-        "mes": 10,
         "num_likes": 49,
         "num_comments": 94,
         "num_retweets": 78
-      }, {
+      },
+      {
+        "mes": 9,
+        "num_likes": 78,
+        "num_comments": 28,
+        "num_retweets": 68
+      },
+      {
+        "mes": 10,
+        "num_likes": 1,
+        "num_comments": 26,
+        "num_retweets": 99
+      },
+      {
         "mes": 11,
-        "num_likes": 45,
-        "num_comments": 43,
-        "num_retweets": 83
-      }, {
+        "num_likes": 82,
+        "num_comments": 19,
+        "num_retweets": 44
+      },
+      {
         "mes": 12,
-        "num_likes": 38,
-        "num_comments": 71,
-        "num_retweets": 3
+        "num_likes": 70,
+        "num_comments": 9,
+        "num_retweets": 67
       }]
   }
 ]
