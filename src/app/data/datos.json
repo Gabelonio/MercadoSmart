@@ -28,15 +28,15 @@
       },
       {
         "mes": 5,
-        "num_likes": 1,
-        "num_comments": 87,
-        "num_retweets": 55
+        "num_likes": 30,
+        "num_comments": 22,
+        "num_retweets": 13
       },
       {
         "mes": 6,
-        "num_likes": 50,
-        "num_comments": 40,
-        "num_retweets": 32
+        "num_likes": 32,
+        "num_comments": 24,
+        "num_retweets": 12
       },
       {
         "mes": 7,
@@ -99,21 +99,21 @@
       },
       {
         "mes": 4,
-        "num_likes": 12,
-        "num_comments": 88,
-        "num_retweets": 76
-      },
-      {
-        "mes": 5,
-        "num_likes": 2,
-        "num_comments": 4,
-        "num_retweets": 25
-      },
-      {
-        "mes": 6,
         "num_likes": 37,
         "num_comments": 77,
         "num_retweets": 23
+      },
+      {
+        "mes": 5,
+        "num_likes": 77,
+        "num_comments": 42,
+        "num_retweets": 30
+      },
+      {
+        "mes": 6,
+        "num_likes": 67,
+        "num_comments": 54,
+        "num_retweets": 86
       },
       {
         "mes": 7,
@@ -123,9 +123,9 @@
       },
       {
         "mes": 8,
-        "num_likes": 58,
+        "num_likes": 70,
         "num_comments": 60,
-        "num_retweets": 83
+        "num_retweets": 43
       },
       {
         "mes": 9,
@@ -141,9 +141,9 @@
       },
       {
         "mes": 11,
-        "num_likes": 67,
-        "num_comments": 54,
-        "num_retweets": 86
+        "num_likes": 76,
+        "num_comments": 88,
+        "num_retweets": 12
       },
       {
         "mes": 12,
