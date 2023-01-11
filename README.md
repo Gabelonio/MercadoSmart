@@ -1,5 +1,10 @@
 # MercadoSmart
 
+Proyecto creado en la sustentación del espacio - Tendencias Avanzadas de Ingeniería de Software.
+Se utiliza principalmente Angular y adicionalmente Angular Material en la muestra de gráficos.
+
+<hr>
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
 ## Development server
