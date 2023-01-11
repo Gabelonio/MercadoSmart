@@ -2,6 +2,17 @@
 
 Proyecto creado en la sustentación del espacio - Tendencias Avanzadas de Ingeniería de Software.
 
+Consiste en obtener análisis estadísticos a través de gráficos luego de obtener información relevante de varios Tags en Twitter.
+
+Las tecnologías usadas han sido principalmente :
+- Angular (Angular Material)
+- Twint (Scrapper desarrollado en Python)
+- RapidMiner (Procesamiento de los datos obtenidos a través del Scrapper)
+- Figma (Realización del prototipo visual del aplicativo)
+
+
+
+
 Se utiliza principalmente Angular y adicionalmente Angular Material en la muestra de gráficos.
 
 <hr>
