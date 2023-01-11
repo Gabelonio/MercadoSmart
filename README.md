@@ -1,6 +1,7 @@
 # MercadoSmart
 
 Proyecto creado en la sustentación del espacio - Tendencias Avanzadas de Ingeniería de Software.
+
 Se utiliza principalmente Angular y adicionalmente Angular Material en la muestra de gráficos.
 
 <hr>
